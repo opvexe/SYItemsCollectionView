@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  MoreItems
+//
+//  Created by FaceBook on 2019/1/18.
+//  Copyright © 2019年 FaceBook. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Masonry.h>
+#import <MJExtension.h>
+#import <UIImageView+WebCache.h>
+
+#define iOS11 @available(iOS 11.0, *)
+#define GRAY_BACK_GROUND_COLOR [UIColor colorWithRed:241/255.0 green:242/255.0 blue:243/255.0 alpha:1]
+#define NEW_PURPLE_COLOR [UIColor colorWithRed:109/255.0 green:23/255.0 blue:134/255.0 alpha:1]
+
+#endif /* PrefixHeader_pch */
