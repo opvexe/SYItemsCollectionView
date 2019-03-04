@@ -1,700 +1,129 @@
 {
   "Message": "Success.",
-  "BaseUrl": "http://111.205.51.147:8001/simulate/cembpublished",
   "Contents": [
     {
-      "Type": "Icons",
-      "Id": "H4",
+
       "Title": "账户服务",
-      "LayoutId": "H",
-      "IdList": [
-        "Product20170927:app:29",
-        "Product20170927:app:30",
-        "Product20170927:app:31",
-        "Product20170927:app:98"
-      ],
       "List": [
         {
-          "Type": "Q",
-          "Id": 29,
           "Title": "我的账户",
           "ImageUrl": "/clients/useruploads/iap/menusAll/more01.png",
-          "Url": "https://mobile.cebbank.com/WDZH101703/index.html#/AccountSelf#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/WDZH101703.ceb",
-          "Created": 1506045575,
-          "Updated": 1508826816,
-          "IsLogin": "1",
-          "ClientsType": "0"
+
         },
         {
-          "Type": "Q",
-          "Id": 30,
           "Title": "交易明细",
           "ImageUrl": "/clients/useruploads/iap/menusAll/more02.png",
-          "Url": "https://mobile.cebbank.com/WDZH101703/index.html#/detailSearch#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/WDZH101703.ceb",
-          "Created": 1506045597,
-          "Updated": 1508826750,
-          "IsLogin": "1",
-          "ClientsType": "0"
         },
         {
-          "Type": "Q",
-          "Id": 31,
+
           "Title": "账户管理",
           "ImageUrl": "/clients/useruploads/iap/menusAll/more03.png",
-          "Url": "https://mobile.cebbank.com/Reportloss092908/index.html#/accountSettings#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/Reportloss092908.ceb",
-          "Created": 1506045620,
-          "Updated": 1508826784,
-          "IsLogin": "1",
-          "ClientsType": "0"
         },
         {
-          "Type": "V",
-          "Id": 98,
+
           "Title": "其他",
           "ImageUrl": "/clients/useruploads/iap/menusAll/more04.png",
-          "FeedUrl": "/clients/layouts/S.json?wsid=",
-          "Created": 1506392848,
-          "Updated": 1506393082,
-          "IsLogin": "0",
-          "ClientsType": "0"
         }
       ],
-      "ImageSize": {},
-      "Columns": "4",
-      "Rows": "1",
-      "Background": "#FFFFFF"
+     
     },
     {
-      "Type": "Icons",
-      "Id": "H8",
+      
       "Title": "投资理财",
-      "LayoutId": "H",
-      "IdList": [
-        "Product20170927:app:1",
-        "Product20170927:app:32",
-        "Product20170927:app:33",
-        "Product20170927:app:34",
-        "Product20170927:app:23",
-        "Product20170927:app:25",
-        "Product20170927:app:26",
-        "Product20170927:app:24",
-        "Product20170927:app:35",
-        "Product20170927:app:36",
-        "Product20170927:app:38",
-        "Product20170927:app:37"
-      ],
+  
       "List": [
         {
-          "Type": "Q",
-          "Id": 1,
+
           "Title": "理财",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/jx1-1.png",
-          "Url": "Finance",
-          "AppUrl": "/clients/useruploads/iap/ceb/productBuyTest023.ceb",
-          "Created": 1506042436,
-          "Updated": 1508826882,
-          "IsLogin": "0",
-          "ClientsType": "0"
+   
         },
         {
-          "Type": "Q",
-          "Id": 32,
+
           "Title": "定存宝",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more05.png",
-          "Url": "https://mobile.cebbank.com/WDZH101703/index.html#/fixTimeSave#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/WDZH101703.ceb",
-          "Created": 1506045654,
-          "Updated": 1508826932,
-          "IsLogin": "1",
-          "ClientsType": "0"
+    
         },
+       
         {
-          "Type": "Q",
-          "Id": 33,
-          "Title": "活期宝",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more06.png",
-          "Url": "https://mobile.cebbank.com/WDZH101703/index.html#/flexTimeSave#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/WDZH101703.ceb",
-          "Created": 1506045674,
-          "Updated": 1508826960,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 34,
-          "Title": "定期存款",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more07.png",
-          "Url": "https://mobile.cebbank.com/WDZH101703/index.html#/saveTypeSwitch#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/WDZH101703.ceb",
-          "Created": 1506045729,
-          "Updated": 1508826989,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "H",
-          "Id": 23,
-          "Title": "基金",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/jr02.png",
-          "Url": "ww",
-          "Created": 1506045344,
-          "Updated": 1506429534,
-          "IsLogin": "0",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 25,
-          "Title": "第三方存管",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/jr04.png",
-          "Url": "https://mobile.cebbank.com/DSFCG092801/index.html#/depository#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/DSFCG092801.ceb",
-          "Created": 1506045403,
-          "Updated": 1508827478,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "H",
-          "Id": 26,
-          "Title": "贵金属",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/jr05.png",
-          "Url": "ww",
-          "Created": 1506045424,
-          "IsLogin": "0",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "H",
-          "Id": 24,
-          "Title": "保险",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/jr03.png",
-          "Url": "ww",
-          "Created": 1506045366,
-          "IsLogin": "0",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "H",
-          "Id": 35,
-          "Title": "大额定期存单",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more08.png",
-          "Url": "ww",
-          "Created": 1506045750,
-          "IsLogin": "0",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 36,
-          "Title": "风险评估",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more13.png",
-          "Url": "https://mobile.cebbank.com/RiskAssessment06/index.html#/RiskAssessment#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/RiskAssessment06.ceb",
-          "Created": 1506045811,
-          "Updated": 1508827449,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "H",
-          "Id": 38,
-          "Title": "存贷利率",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more15.png",
-          "Url": "http://www.cebbank.com/m/p/cdll/index.html",
-          "Created": 1506045877,
-          "Updated": 1506391311,
-          "IsLogin": "0",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "H",
-          "Id": 37,
-          "Title": "金融计算器",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more14.png",
-          "Url": "http://www.cebbank.com/m/p/jsq/index.html",
-          "Created": 1506045831,
-          "Updated": 1506308667,
-          "IsLogin": "0",
-          "ClientsType": "0"
-        }
-      ],
-      "ImageSize": {},
-      "Columns": "4",
-      "Rows": "3",
-      "Background": "#FFFFFF"
-    },
-    {
-      "Type": "Icons",
-      "Id": "H12",
-      "Title": "个人贷款",
-      "LayoutId": "H",
-      "IdList": [
-        "Product20170927:app:4",
-        "Product20170927:app:40",
-        "Product20170927:app:41",
-        "Product20170927:app:42",
-        "Product20170927:app:43"
-      ],
-      "List": [
-        {
-          "Type": "V",
-          "Id": 4,
-          "Title": "贷款",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/jx1-4-0923.png",
-          "FeedUrl": "/clients/layouts/P.json?wsid=",
-          "Created": 1506042609,
-          "Updated": 1506430071,
-          "IsLogin": "0",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 40,
-          "Title": "还贷款",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more18.png",
-          "Url": "https://mobile.cebbank.com/LoanIntrgratedCode_102401/index.html#/LoanRepaymentList#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/LoanIntrgratedCode_102401.ceb",
-          "Created": 1506045936,
-          "Updated": 1508827774,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 41,
-          "Title": "我要提款",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more19.png",
-          "Url": "https://mobile.cebbank.com/LoanIntrgratedCode_102401/index.html#/Withdrawal#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/LoanIntrgratedCode_102401.ceb",
-          "Created": 1506045960,
-          "Updated": 1508827805,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 42,
-          "Title": "我的贷款",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more20.png",
-          "Url": "https://mobile.cebbank.com/LoanIntrgratedCode_102401/index.html#/LoanInfoQuery#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/LoanIntrgratedCode_102401.ceb",
-          "Created": 1506045980,
-          "Updated": 1508827832,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 43,
-          "Title": "他行卡还款",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more21.png",
-          "Url": "https://mobile.cebbank.com/LoanIntrgratedCode_102401/index.html#/LoanAutoPayQuery#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/LoanIntrgratedCode_102401.ceb",
-          "Created": 1506046001,
-          "Updated": 1508827863,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        }
-      ],
-      "ImageSize": {},
-      "Columns": "4",
-      "Rows": "2",
-      "Background": "#FFFFFF"
-    },
-    {
-      "Type": "Icons",
-      "Id": "H16",
-      "Title": "转账",
-      "LayoutId": "H",
-      "IdList": [
-        "Product20170927:app:44",
-        "Product20170927:app:48",
-        "Product20170927:app:47",
-        "Product20170927:app:45"
-      ],
-      "List": [
-        {
-          "Type": "H",
-          "Id": 44,
-          "Title": "转账",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more22.png",
-          "Url": "Ys_ZZ#allauth",
-          "Created": 1506046020,
-          "Updated": 1506389563,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "H",
-          "Id": 48,
-          "Title": "转账明细",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more26.png",
-          "Url": "Ys_ZZJYMXCX#allauth",
-          "Created": 1506046112,
-          "Updated": 1506405704,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "H",
-          "Id": 47,
-          "Title": "收款人管理",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more25.png",
-          "Url": "Ys_ZZSKRGL#allauth",
-          "Created": 1506046088,
-          "Updated": 1506405678,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 45,
-          "Title": "资金归集",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more23.png",
-          "Url": "https://mobile.cebbank.com/LoanIntrgratedCode_102401/index.html#/capitalGj#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/LoanIntrgratedCode_102401.ceb",
-          "Created": 1506046049,
-          "Updated": 1508827896,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        }
-      ],
-      "ImageSize": {},
-      "Columns": "4",
-      "Rows": "1",
-      "Background": "#FFFFFF"
-    },
-    {
-      "Type": "Icons",
-      "Id": "H20",
-      "Title": "信用卡",
-      "LayoutId": "H",
-      "IdList": [
-        "Product20170927:app:9",
-        "Product20170927:app:12",
-        "Product20170927:app:20",
-        "Product20170927:app:13",
-        "Product20170927:app:15",
-        "Product20170927:app:21",
-        "Product20170927:app:18",
-        "Product20170927:app:67"
-      ],
-      "List": [
-        {
-          "Type": "Q",
-          "Id": 9,
-          "Title": "账单查询",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/xyk01.png",
-          "Url": "https://mobile.cebbank.com/CreditCard101203/index.html#/creditBillQuery#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/CreditCard101203.ceb",
-          "Created": 1506043473,
-          "Updated": 1508827943,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 12,
-          "Title": "还信用卡",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/xyk02-0922.png",
-          "Url": "https://mobile.cebbank.com/CreditCard101203/index.html#/repayment#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/CreditCard101203.ceb",
-          "Created": 1506044710,
-          "Updated": 1508827972,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 20,
-          "Title": "取现",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/xyk12-0922.png",
-          "Url": "https://mobile.cebbank.com/CreditCard101203/index.html#/CashWithDrawal#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/CreditCard101203.ceb",
-          "Created": 1506045054,
-          "Updated": 1508828006,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 13,
-          "Title": "账单分期",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/xyk03.png",
-          "Url": "https://mobile.cebbank.com/CreditCard101203/index.html#/creditBillDivide#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/CreditCard101203.ceb",
-          "Created": 1506044740,
-          "Updated": 1508828028,
-          "IsLogin": "1",
-          "ClientsType": "0"
-        },
-        {
-          "Type": "Q",
-          "Id": 15,
+          
           "Title": "卡片挂失",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/xyk05.png",
-          "Url": "https://mobile.cebbank.com/Reportloss092908/index.html#/ReportLoss#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/Reportloss092908.ceb",
-          "Created": 1506044792,
-          "Updated": 1508828048,
-          "IsLogin": "1",
-          "ClientsType": "0"
         },
         {
-          "Type": "Q",
-          "Id": 21,
+   
           "Title": "我的积分",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/xyk13.png",
-          "Url": "https://mobile.cebbank.com/CreditIntrgratedCode_102401/index.html#/QryCreditCardPoint#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/CreditIntrgratedCode_102401.ceb",
-          "Created": 1506045075,
-          "Updated": 1508828087,
-          "IsLogin": "1",
-          "ClientsType": "0"
+       
         },
         {
-          "Type": "H",
-          "Id": 18,
+     
           "Title": "信用卡申请",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/xyk10.png",
-          "Url": "https://xyk.cebbank.com/cebmms/apply/ps/card-list.htm?pro_code=ZHTG032017SJ01SJYH",
-          "Created": 1506044897,
-          "Updated": 1506394511,
-          "IsLogin": "0",
-          "ClientsType": "0"
+        
         },
         {
-          "Type": "V",
-          "Id": 67,
+
           "Title": "更多",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more04.png",
-          "FeedUrl": "/clients/layouts/I.json?wsid=",
-          "Created": 1506048367,
-          "Updated": 1506063710,
-          "IsLogin": "0",
-          "ClientsType": "0"
         }
       ],
-      "ImageSize": {},
-      "Columns": "4",
-      "Rows": "2",
-      "Background": "#FFFFFF"
     },
     {
-      "Type": "Icons",
-      "Id": "H24",
       "Title": "支付",
-      "LayoutId": "H",
-      "IdList": [
-        "Product20170927:app:49",
-        "Product20170927:app:91"
-      ],
       "List": [
         {
-          "Type": "Q",
-          "Id": 49,
           "Title": "电子支付设置",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more32.png",
-          "Url": "https://mobile.cebbank.com/zfqygl102301/index.html#/EpayManage#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/zfqygl102301.ceb",
-          "Created": 1506046257,
-          "Updated": 1508828220,
-          "IsLogin": "1",
-          "ClientsType": "0"
+     
         },
         {
-          "Type": "H",
-          "Id": 91,
           "Title": "二维码支付",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more35append.png",
-          "Url": "ww",
-          "Created": 1506153276,
-          "IsLogin": "0",
-          "ClientsType": "0"
         }
       ],
-      "ImageSize": {},
-      "Columns": "4",
-      "Rows": "1",
-      "Background": "#FFFFFF"
     },
     {
-      "Type": "Icons",
-      "Id": "H28",
       "Title": "生活",
-      "LayoutId": "H",
-      "IdList": [
-        "Product20170927:app:51",
-        "Product20170927:app:3"
-      ],
       "List": [
         {
-          "Type": "H",
-          "Id": 51,
           "Title": "缴费",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more36.png",
-          "Url": "Ys_JiaoFei",
-          "Created": 1506046339,
-          "Updated": 1506406412,
-          "IsLogin": "0",
-          "ClientsType": "0"
         },
         {
-          "Type": "H",
-          "Id": 3,
           "Title": "手机充值",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/jx1-3.png",
-          "Url": "Ys_ShouJiChongZhi#allauth",
-          "Created": 1506042587,
-          "Updated": 1506306242,
-          "IsLogin": "1",
-          "ClientsType": "0"
         }
       ],
-      "ImageSize": {},
-      "Columns": "4",
-      "Rows": "1",
-      "Background": "#FFFFFF"
     },
     {
-      "Type": "Icons",
-      "Id": "H32",
       "Title": "外汇业务",
-      "LayoutId": "H",
-      "IdList": [
-        "Product20170927:app:52",
-        "Product20170927:app:92",
-        "Product20170927:app:53"
-      ],
       "List": [
         {
-          "Type": "Q",
-          "Id": 52,
           "Title": "结售汇",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more38.png",
-          "Url": "https://mobile.cebbank.com/cebclient128/index.html#/BuyList#allauth",
-          "AppUrl": "/clients/useruploads/iap/ceb/cebclient128.ceb",
-          "Created": 1506046399,
-          "Updated": 1508828298,
-          "IsLogin": "1",
-          "ClientsType": "0"
         },
         {
-          "Type": "H",
-          "Id": 92,
           "Title": "外汇牌价",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more40append.png",
-          "Url": "http://www.cebbank.com/eportal/ui?pageId=45914080",
-          "Created": 1506153393,
-          "Updated": 1506308706,
-          "IsLogin": "0",
-          "ClientsType": "0"
         },
         {
-          "Type": "H",
-          "Id": 53,
           "Title": "西联汇款",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more39.png",
-          "Url": "ww",
-          "Created": 1506046430,
-          "IsLogin": "0",
-          "ClientsType": "0"
         }
       ],
-      "ImageSize": {},
-      "Columns": "4",
-      "Rows": "1",
-      "Background": "#FFFFFF"
     },
     {
-      "Type": "Icons",
-      "Id": "H36",
       "Title": "其他",
-      "LayoutId": "H",
-      "IdList": [
-        "Product20170927:app:62",
-        "Product20170927:app:61",
-        "Product20170927:app:56",
-        "Product20170927:app:55",
-        "Product20170927:app:57",
-        "Product20170927:app:58"
-      ],
       "List": [
         {
-          "Type": "V",
-          "Id": 62,
           "Title": "阳光e申请",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more49.png",
-          "FeedUrl": "/clients/layouts/N.json?wsid=",
-          "Created": 1506046760,
-          "Updated": 1506072534,
-          "IsLogin": "0",
-          "ClientsType": "0"
         },
         {
-          "Type": "H",
-          "Id": 61,
           "Title": "我的周边",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more48.png",
-          "Url": "Ys_Credits",
-          "Created": 1506046737,
-          "Updated": 1506426970,
-          "IsLogin": "0",
-          "ClientsType": "0"
         },
         {
-          "Type": "V",
-          "Id": 56,
           "Title": "手机银行管理",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more42.png",
-          "FeedUrl": "/clients/layouts/R.json?wsid=",
-          "Created": 1506046588,
-          "Updated": 1506161041,
-          "IsLogin": "0",
-          "ClientsType": "0"
         },
         {
-          "Type": "V",
-          "Id": 55,
           "Title": "安全设置",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more41.png",
-          "FeedUrl": "/clients/layouts/K.json?wsid=",
-          "Created": 1506046560,
-          "Updated": 1506067339,
-          "IsLogin": "0",
-          "ClientsType": "0"
         },
         {
-          "Type": "H",
-          "Id": 57,
           "Title": "在线客服",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more43.png",
-          "Url": "Ys_OnlineService",
-          "Created": 1506046610,
-          "Updated": 1506673924,
-          "IsLogin": "0",
-          "ClientsType": "0"
         },
         {
-          "Type": "H",
-          "Id": 58,
+
           "Title": "分行特色",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more45.png",
-          "Url": "ww",
-          "Created": 1506046667,
-          "IsLogin": "0",
-          "ClientsType": "0"
+
         }
       ],
-      "ImageSize": {},
-      "Columns": "4",
-      "Rows": "2",
-      "Background": "#FFFFFF"
     }
   ]
 }
