@@ -7,22 +7,19 @@
       "List": [
         {
           "Title": "我的账户",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more01.png",
+
 
         },
         {
           "Title": "交易明细",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more02.png",
         },
         {
 
           "Title": "账户管理",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more03.png",
         },
         {
 
           "Title": "其他",
-          "ImageUrl": "/clients/useruploads/iap/menusAll/more04.png",
         }
       ],
      
